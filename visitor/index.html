@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor - London Perfumes Exhibition</title>
+    <link rel="icon" type="image/svg" href="/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/visitor.css">
+    <!-- Import model-viewer for 3D models -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+    
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-logo">
+            <img src="/logo.svg?v=2" alt="Loading...">
+        </div>
+        <span class="preloader-text">Loading</span>
+    </div>
+
+    <!-- Floating Background -->
+    <div class="floating-bg">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href=".." class="nav-logo">
+            <img src="/logoextend.svg" alt="Logo">
+        </a>
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Overlay -->
+    <div class="menu-overlay"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <nav class="side-menu-nav">
+            <a href=".." class="side-menu-link">Home</a>
+            <a href="/exhibitor/" class="side-menu-link">Exhibitor</a>
+            <a href="/visitor/" class="side-menu-link">Visitor</a>
+        </nav>
+        <div class="side-menu-cta">
+            <a href="../form/" class="btn btn-primary">Get Notified</a>
+        </div>
+    </div>
+
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero">
+        <div class="hero-background">
+            <video class="hero-bg-video" autoplay muted loop playsinline>
+                <source src="/hero.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-tagline">Welcome Visitors</span>
+            <h1>VISITOR <span class="accent">GUIDE</span></h1>
+            <p class="hero-subtitle">Discover Timeless Scents and Create Yours</p>
+            <div class="hero-actions">
+                <a href="#ticket-booking" class="btn btn-primary">Get Your Tickets</a>
+                <a href="#why-visit" class="btn btn-outline">Explore The Event</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+<!-- ==================== SECTION 1 - WHY VISIT HERO ==================== -->
+    <section id="why-visit">
+        <!-- Perfume Motion Background -->
+        <div class="perfume-motion-bg"></div>
+
+        <div class="why-visit-container">
+            <div class="why-visit-box fade-up">
+                <!-- Header -->
+                <div class="why-visit-header">
+                    <span class="section-tag fade-up">Why Visit The Exhibition</span>
+                    <h2 class="fade-up delay-1">NO ELEGANCE WITHOUT <span class="accent">PERFUME</span></h2>
+                    <p class="subtitle fade-up delay-2">Discover timeless scents and create yours.</p>
+                </div>
+
+                <!-- Grid: Cards + Perfume -->
+                <div class="why-visit-grid">
+                    <!-- Card 1 -->
+                    <div class="visit-card fade-up delay-3">
+                        <div class="visit-card-icon">
+                            <img src="/logo.svg" class="icon-logo" alt="">
+                            <span class="icon-hover">🌸</span>
+                        </div>
+                        <h3>Discover Rare and Exclusive Fragrances</h3>
+                        <p>Explore a curated selection of authentic Middle Eastern ouds, attars, 
+                        and luxury scents from global artisans that are not commonly available in everyday stores.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="visit-card fade-up delay-4">
+                        <div class="visit-card-icon">
+                            <img src="/logo.svg" class="icon-logo" alt="">
+                            <span class="icon-hover">💼</span>
+                        </div>
+                        <h3>Connect with Industry Leaders and Experts</h3>
+                        <p>Meet and network directly with top perfume brands, creators, and distributors from the Middle East and worldwide, 
+                        opening doors for business opportunities and insider insights.</p>
+                    </div>
+
+                    <!-- Perfume 3D Model -->
+                    <div class="perfume-container fade-scale delay-2">
+                        <model-viewer 
+                            class="perfume-3d"
+                            src="/parfum.glb"
+                            alt="3D Perfume Bottle"
+                            auto-rotate
+                            camera-controls
+                            disable-zoom
+                            rotation-per-second="30deg"
+                            interaction-prompt="none"
+                            shadow-intensity="1"
+                            exposure="1">
+                        </model-viewer>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="visit-card fade-up delay-5">
+                        <div class="visit-card-icon">
+                            <img src="/logo.svg" class="icon-logo" alt="">
+                            <span class="icon-hover">🌀</span>
+                        </div>
+                        <h3>Immersive Sensory Experiences</h3>
+                        <p>Engage with live demonstrations, scent trails, and exclusive 
+                        masterclasses that deepen your understanding and appreciation of the art of perfumery.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="visit-card fade-up delay-6">
+                        <div class="visit-card-icon">
+                            <img src="/logo.svg" class="icon-logo" alt="">
+                            <span class="icon-hover">🕍</span>
+                        </div>
+                        <h3>Be Part of a Unique Cultural Celebration</h3>
+                        <p>Experience the fusion of heritage and innovation as the exhibition 
+                        highlights the rich traditions of Middle Eastern perfumery within a dynamic, cosmopolitan London setting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 2 - SECTORS ==================== -->
+    <section id="about">
+        <div class="section-header">
+            <span class="section-tag fade-up">Sectors</span>
+            <h2 class="fade-up delay-1">EXPLORE THE SECTORS OF <span class="accent">EXHIBITION</span></h2>
+            <p class="fade-up delay-2">Discover the diverse world of fragrance through our carefully curated exhibition zones.</p>
+        </div>
+
+        <div class="categories-grid">
+            <div class="category-card fade-up delay-1">
+                <div class="category-card-inner">
+                    <img src="/perfumes.png" alt="Luxury Fragrances" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Perfumes</h3>
+                    <p>oriental, amber, woody, floral compositions.</p>
+                </div>
+            </div>
+
+            <div class="category-card fade-up delay-2">
+                <div class="category-card-inner">
+                    <img src="/attars.png" alt="Niche & Artisan" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Attars</h3>
+                    <p>concentrated perfume oils, often alcohol‑free and sold in roll‑on bottles.</p>
+                </div>
+            </div>
+
+            <div class="category-card fade-up delay-3">
+                <div class="category-card-inner">
+                    <img src="/oud.jpg" alt="Raw Materials" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Oud</h3>
+                    <p>pure oud oils and blends combining oud with florals, spices or amber.</p>
+                </div>
+            </div>
+
+            <div class="category-card fade-up delay-4">
+                <div class="category-card-inner">
+                    <img src="/bakrouh.png" alt="Packaging & Design" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Bakhoor</h3>
+                    <p>perfumed incense. Fragranced wood chips, powders or cubes burned to scent homes and garments.</p>
+                </div>
+            </div>
+
+            <div class="category-card fade-up delay-5">
+                <div class="category-card-inner">
+                    <img src="/body.png" alt="Home Fragrances" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Home & body fragrances</h3>
+                    <p>body mists, fabric and room sprays, plus scented body care like lotions</p>
+                </div>
+            </div>
+
+            <div class="category-card fade-up delay-6">
+                <div class="category-card-inner">
+                    <img src="/bougie.png" alt="Technology & Innovation" class="category-card-img">
+                </div>
+                <div class="category-overlay"></div>
+                <div class="category-content">
+                    <h3>Scented Candles</h3>
+                    <p>Luxury candles infused with signature fragrance blends, 
+                    designed to create a warm, long‑lasting olfactory ambiance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 3 - WORLDWIDE SCENTS ==================== -->
+    <section id="worldwide-scents">
+        <div class="worldwide-container">
+            <!-- Text Column -->
+            <div class="worldwide-text fade-left">
+                <span class="section-tag">Worldwide Scents</span>
+                <h2 class= "wrap-text">Global Perfume, <span class="accent wrap-text">Middle East</span> Soul</h2>
+                <p class="highlight">Middle East mastery meets global scents.</p>
+                <p>The London Perfumes Exhibition connects the rich olfactory heritage of the Middle East with the world's finest fragrance traditions. Experience how Gulf perfumery expertise—oud, attars, and bakhoor—blends seamlessly with European elegance and Asian refinement.</p>
+                <p>Join us to explore a curated selection of scents from over 30 countries, bridging cultures through the universal language of fragrance.</p>
+            </div>
+
+            <!-- Globe 3D Column -->
+            <div class="globe-container fade-right">
+                <model-viewer 
+                    class="globe-3d"
+                    src="/terre.glb"
+                    alt="3D Globe"
+                    auto-rotate
+                    camera-controls
+                    disable-zoom
+                    rotation-per-second="30deg"
+                    interaction-prompt="none"
+                    shadow-intensity="1"
+                    exposure="1.2">
+                </model-viewer>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 5 - NEWSLETTER ==================== -->
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <span class="section-tag fade-up">Stay Updated</span>
+                <h2 class="fade-up delay-1">JOIN OUR <span class="accent">NEWSLETTER</span></h2>
+                <p class="fade-up delay-2">Be the first to know about exhibitors, exclusive events, and early bird offers.</p>
+            </div>
+            <form class="newsletter-form fade-up delay-3" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+                <input type="hidden" name="subject" value="New Newsletter Subscription">
+                <div class="newsletter-input-wrapper">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="/logoextend.svg" alt="London Perfumes Exhibition">
+                </div>
+                <p>The premier international exhibition dedicated to the art and business of fragrance.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="/exhibitor/">Exhibitor Info</a></li>
+                    <li><a href="/visitor/">Visitor Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Visitors</h4>
+                <ul>
+                    <li><a href="#why-visit">Why Visit</a></li>
+                    <li><a href="../form/">Get Tickets</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:info@london-perfumes-expo.com">info@london-perfumes-expo.com</a></li>
+                    <li><a href="tel:+442012345678">+44 20 1234 5678</a></li>
+                    <li><a href="#">13-22 aout 2026, Olympia</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 London Perfumes Exhibition. All rights reserved.</p>
+            <div class="footer-bottom-links">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="/js/visitor.js"></script>
+
+</body>
+</html>
