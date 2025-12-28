@@ -1,0 +1,118 @@
+****** 03/12/2025 ******
+
+  - initialisation du projet de site web.
+  - création du site web de base.
+  - mise en place de la structure de base avec HTML et CSS.
+  - création des premières pages/sections (Accueil, À propos, Contact).
+  - ajout de la page d'accueil avec une bannière et un menu de navigation.
+  - intégration des premières sections de contenu.
+  - tests de compatibilité sur différents navigateurs.
+  - optimisation des performances pour un chargement rapide.
+  - mise en place d'un formulaire de contact fonctionnel.
+  - optimisation du code Javascript pour une meilleure interactivité.
+  - ajout de fonctionnalités de sécurité et anti-spam.
+  - reamélioration du design pour une meilleure expérience utilisateur.
+  - changement du logo et des couleurs principales du site.
+  - changement des bannières du hero et des sections principales.
+  - énorme refonte du CSS pour un design plus moderne et épuré.
+  - modifications mineures sur la page d'accueil et la page contact.
+  - vidéos intégrées dans la page d'accueil.
+  - vidéo sur-mesure.
+  - montage vidéo pour le site web.
+
+****** 04/12/2025 ******
+
+  - navbar responsive pour mobile et tablette.
+  - navbar design amélioré.
+  - ajout d'animations CSS.
+  - optimisation SEO de la page d'accueil.
+  - correction de bugs mineurs dans le code HTML et CSS.
+  - amélioration visuel de la page contact.
+  - ajout d'animations au scroll.
+  - ajout d'animations au hover des boutons.
+  - optimisation des images pour un chargement plus rapide.
+  - ajout de vidéo de fond dans certaines sections.
+  - ajout d'animations de texte.
+  - ajout d'animations pour le chargement des sections avec hover,hover souris qui suit etc...
+  - sections : hover pour afficher des informations supplémentaires lorsque la souris passe dessus.
+  - rectifications mineures sur les ombrages des sections.
+  - amélioration de l'ombrage sur les catégories quand elles sont survolées.
+  - optimisation majeur du code CSS pour réduire la taille des fichiers et améliorer les performances de chargement.
+  - optimisation majeur sur les téléphones mobiles et tablettes.
+  - optimisation du code JS pour une meilleure performance globale du site.
+  - montage vidéo pour le site web.
+
+****** 05/12/2025 ******
+  
+  - début de création de CMS sur-mesure pour le site web.
+  - ajout de sections interactives dans le site web.
+  - création d'images sur-mesure pour le site web.
+  - création de bannières sur-mesure pour le site web.
+  - création de vidéos sur-mesure pour le site web.
+  - optimisation du site web pour les moteurs de recherche (SEO).
+  - montage vidéo avancé pour le site web.
+  - ajout d'effets visuels avancés dans les vidéos.
+  - optimisation du rendu vidéo pour une qualité optimale sur le web.
+  - exportation des vidéos dans les formats adaptés pour le web.
+  - intégration des vidéos optimisées dans le site web.
+  - tests finaux pour garantir la qualité et la performance des vidéos intégrées.
+
+****** 06/12/2025 ******
+
+  - création de la page visitors pour le site web.
+  - design et mise en page de la page visitors.
+  - intégration des fonctionnalités spécifiques à la page visitors.
+  - création de contenu pour la page visitors.
+  - tests approfondis de la page visitors pour garantir son bon fonctionnement.
+  - modèle de page supplémentaire pour le site web.
+  - ajout de nouvelles sections de contenu pour le modèle de page supplémentaire.
+  - intégration de fonctionnalités interactives dans le modèle de page supplémentaire.
+  - 3D sur-mesure pour le site web.
+  - création de modèles 3D personnalisés pour le site web.
+  - optimisation des modèles 3D pour une performance optimale sur le web.
+  - intégration des modèles 3D optimisés dans le site web.
+  - tests approfondis pour garantir la qualité et la performance des modèles 3D intégrés.
+  - retouches mineures sur le design global du site web.
+  - optimisation finale du code HTML, CSS et JS de la page visiteur pour une performance maximale.
+  - création de la page exhibitors pour le site web.
+  - design et mise en page de la page exhibitors.
+  - intégration des fonctionnalités spécifiques à la page exhibitors.
+  - création de contenu pour la page exhibitors.
+  - tests approfondis de la page exhibitors pour garantir son bon fonctionnement.
+  - création des catégories spécifiques pour la page exhibitors (Overview of the exhibition).
+
+****** 07/12/2025 ******
+
+  - finalisation de la page visitors avec des ajustements mineurs basés sur les tests.
+  - optimisation du code HTML, CSS et JS de la page visitors pour une performance maximale.
+  - ajout de fonctionnalités interactives dans la page exhibitors.
+  - changement massive du design des sections de la page exhibitors.
+  - rechangement de la seciton 1 de la page exhibitors.
+  - optimisation finale du code HTML, CSS et JS de la page exhibitors pour une performance maximale.
+  - tests finaux du site web dans son ensemble pour garantir son bon fonctionnement et sa performance optimale.
+  - corrections des derniers bugs et ajustements mineurs basés sur les tests finaux.
+  - code final optimisé pour le site web dans son ensemble.
+  - relier toutes les pages entre elles via la navbar et les liens internes.
+  - relier toutes les pages entre elles via le footer et les boutons.
+
+****** 08/12/2025 ******
+
+ - optimisation massive de la page visitor (+400 lignes d'optimisation).
+ - changements de petits détails sur les pages visitors et exhibitors et accueil.
+ - optimisation massive de la page Home (+300 lignes d'optimisation).
+ - procédure de déploiement du site web sur le serveur de production.
+ - configurations nécessaires pour le déploiement.
+
+ ****** 12-FINALITE/12/2025 ******
+
+ - préparation du lancement officiel du site web.
+ - en attente du lancement officiel du site web, diverses tâches de maintenance et d'amélioration continue ont été effectuées
+ - configuration des DNS et nameservers pour le domaine du site web.
+ - configuration du certificat SSL pour sécuriser le site web.
+ - configuration du repo Git pour la gestion du code source du site web.
+ - surveillance des performances du site web après le lancement.
+ - corrections de bugs mineurs et ajustements basés sur les retours du client après le lancement.
+ ?
+
+
+
